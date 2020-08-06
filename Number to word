@@ -1,0 +1,29 @@
+#W. A P. which takes one number from 0 to 9 from the user and prints it in the word. And if the word is not from 0 to 9 then
+#it should print that number is outside of the range and program should exit.
+# For exapmple:- 
+# input = 1
+# output = one
+
+num = int(input("Enter a number from 0 to 9 :" ))
+if(num==0):
+ print("The entered number is zero")
+elif (num==1):
+ print("The entered number is one")
+elif(num==2):
+ print("The entered number is two")
+elif(num==3):
+ print("The entered number is three")
+elif(num==4):
+ print("The entered number is four")
+elif(num==5):
+ print("The entered number is five")
+elif(num==6):
+ print("The entered number is six")
+elif(num==7):
+ print("The entered number is seven")
+elif(num==8):
+ print("The entered number is eight")
+elif(num==9):
+ print("The entered number is nine")
+else:
+ print(f'{num} is outside of the range')
